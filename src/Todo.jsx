@@ -18,8 +18,8 @@ function Todo() {
 
     function markAsDone(marked_id){
         setTask(task.map((el)=>{
-            if(el.id === marked_id){
-             return {...el,isDone:true}; //change the existing data.
+            if(el.id === marked_id){  
+             return {...el,isDone:true}; //change the already exist data.
              
             }
             else
